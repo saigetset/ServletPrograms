@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        tr {
+            color: brown;
+        }
+
+        td {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <center>
+            <form method="GET" action="./test">
+            <h1>Registration Form</h1>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="text" name="age" /></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="city" /></td>
+                </tr>
+                <tr>
+                    <td>Courses</td>
+                    <td>
+                        <select name='courses' multiple>
+                            <option value='CoreJava'>CoreJava</option>
+                            <option value='AdvancedJava'>AdvanedJava</option>
+                            <option value='Hibernate'>Hibernate</option>
+                            <option value='Spring'>Spring</option>
+                            <option value='SpringBoot'>SpringBoot</option>
+                            <option value='Microservices'>MicroServices</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="submit" /></td>
+                </tr>
+            </table>
+            </form>
+        </center>
+</body>
+
+</html>
